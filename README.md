@@ -70,6 +70,17 @@ Desenvolvido por [Itamar Medeiros](https://github.com/ItamarMedeirosDev) como pa
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://itamarmedeirosdev.vercel.app/) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itamarmedeiros6/)
 
+## 🌐 Deploy
+
+A aplicação está hospedada em produção na plataforma [Railway](https://railway.app), utilizando:
+
+- **Servidor:** Gunicorn com Whitenoise
+- **Banco de Dados:** PostgreSQL
+- **Gerenciamento de variáveis de ambiente:** Railway Dashboard
+- **Coleta de arquivos estáticos:** `collectstatic` com armazenamento via `staticfiles/`
+
+🔗 Acesse a versão em produção: [https://doitnow.up.railway.app](https://doitnow.up.railway.app)
+
 
 ## Colaboração
 
