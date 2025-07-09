@@ -101,6 +101,7 @@ USE_I18N = True
 
 USE_TZ = True
 
+CSRF_TRUSTED_ORIGINS = ['https://doitnow.up.railway.app']
 
 # Arquivos estáticos
 STATIC_URL = 'static/'
