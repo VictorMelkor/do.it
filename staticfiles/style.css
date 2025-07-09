@@ -140,6 +140,7 @@ ul li label {
     font-weight: 700;
     font-size: 1.8em;
     color: var(--cor-principal); /* ou uma cor que combine */
+    
 }
 
 .nav-links a.nav-btn {
@@ -159,6 +160,9 @@ ul li label {
     background-color: var(--cor-principal);
     color: white;
 }
+
+
+
 
 .form-container {
     max-width: 600px;

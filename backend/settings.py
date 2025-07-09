@@ -15,6 +15,9 @@ DEBUG = os.getenv('DEBUG', 'False').lower() in ['true', '1', 'yes']
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
 
 
+
+
+
 # Aplicações instaladas
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -106,7 +109,7 @@ CSRF_TRUSTED_ORIGINS = ['https://doitnow.up.railway.app']
 # Arquivos estáticos
 STATIC_URL = 'static/'
 
-# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

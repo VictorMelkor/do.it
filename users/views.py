@@ -30,7 +30,7 @@ def login_view(request):
             user = authenticate(request, email=email, password=password)
             if user is not None:
                 login(request, user)
-                return redirect('/')
+                return redirect('tasks:task_list')
             else:
                 form_errors['non_field_errors'] = 'Credenciais inválidas. Tente novamente.'
 
